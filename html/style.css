@@ -1,0 +1,141 @@
+body {
+  background: none !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.container .div {
+  margin-top: 420px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(12, 47, 94, 0.69) 0%, rgba(50, 50, 51, 0.69) 100%); 
+  overflow-x: hidden;
+  width: 293px;
+  height: 153px;
+  position: relative;
+}
+
+.container .overlap {
+  top: 17px;
+  left: 22px;
+  position: absolute;
+  width: 73px;
+  height: 55px;
+  background-color: #3a3b3b;
+  border-radius: 8px;
+}
+
+.container .img {
+  position: absolute;
+  width: 48px;
+  height: 45px;
+  top: 3px;
+  left: 12px;
+}
+
+.container .overlap-group {
+  top: 79px;
+  left: 112px;
+  position: absolute;
+  width: 73px;
+  height: 55px;
+  background-color: #3a3b3b;
+  border-radius: 8px;
+}
+
+.container .night-wrapper {
+  top: 79px;
+  left: 22px;
+  position: absolute;
+  width: 73px;
+  height: 55px;
+  background-color: #3a3b3b;
+  border-radius: 8px;
+}
+
+.container .halloween-wrapper {
+  top: 17px;
+  left: 112px;
+  position: absolute;
+  width: 73px;
+  height: 55px;
+  background-color: #3a3b3b;
+  border-radius: 8px;
+}
+
+.container .cloud-with-rain-wrapper {
+  top: 17px;
+  left: 202px;
+  position: absolute;
+  width: 73px;
+  height: 55px;
+  background-color: #3a3b3b;
+  border-radius: 8px;
+}
+
+.container .light-off-wrapper {
+  top: 79px;
+  left: 202px;
+  position: absolute;
+  width: 73px;
+  height: 55px;
+  background-color: #3a3b3b;
+  border-radius: 8px;
+}
+
+.box {
+  width: 158px;
+  height: 141px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box .i-m-form {
+  margin-top: 450px;
+  margin-left: 1740px;
+  position: fixed;
+  width: 160px;
+  height: 141px;
+  top: 0;
+  left: 0;
+}
+
+.box .overlap-group {
+  position: relative;
+  width: 158px;
+  height: 141px;
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(12, 47, 94, 0.69) 0%, rgba(50, 50, 51, 0.69) 100%); 
+}
+
+.box .ok {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  top: 9px;
+  left: 31px;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  height: 18px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  direction: rtl;
+  top: 105px;
+}
